@@ -9,7 +9,7 @@ public class Customer extends Person{
 	//생성자
 	public Customer() {}
 	public Customer(String name, String hp, int cNO, int point) {
-		super(name,hp);
+		super(name,hp); //부모클래스의 생성자 호출
 		this.cNO = cNO;
 		this.point = point;
 	}

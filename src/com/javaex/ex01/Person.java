@@ -1,7 +1,7 @@
 package com.javaex.ex01;
 
 public class Person {
-	//필드
+	//필드 : 자식클래스에서도 갖다 쓰기 위해 접근제한자 protected
 	protected String name;
 	protected String hp;
 	
